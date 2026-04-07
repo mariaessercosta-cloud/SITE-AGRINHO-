@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<!--Define que o documento está em HTML5-->
-<html lang="pt-BR">
-<!-- Define o idioma como pórtugues do brasil-->
+<html lang="pt-br">
 <head>
-    <"-- Configuração ivisíveis da página-->
     <meta charset="UTF-8">
-    <"--Permite usar acentos e caracteres especiais -->
-    <meta name="viewport" content="width=device-width, initial- scale=1.0">
-    <!-- Faz o site se adaptar a celulares(responsividade) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte | Futuro Sustentável</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Agro<span>Forte</span></div>
+            <button class="mobile-menu-icon" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content container">
+                <h1 class="reveal">O Equilíbrio que Alimenta o Mundo</h1>
+                <p class="reveal">Inovação tecnológica e respeito ao meio ambiente para uma agricultura de próxima geração.</p>
+                <a href="#sobre" class="btn reveal">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="features container">
+            <div class="section-title">
+                <h2>Nossos Pilares</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="grid-cards">
+                <div class="card reveal">
+                    <img src="https://images.unsplash.com/photo-1560493676-04071c5f467b?auto=format&fit=crop&w=400&q=80" alt="Tecnologia">
+                    <h3>Tecnologia de Precisão</h3>
+                    <p>Otimização de recursos através de dados e monitoramento em tempo real.</p>
+                </div>
+                <div class="card reveal">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=400&q=80" alt="Solo">
+                    <h3>Recuperação de Solo</h3>
+                    <p>Práticas regenerativas para manter a terra fértil por gerações.</p>
+                </div>
+                <div class="card reveal">
+                    <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=400&q=80" alt="Água">
+                    <h3>Gestão de Água</h3>
+                    <p>Sistemas inteligentes de irrigação com desperdício zero.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sustentabilidade" class="gallery">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Integração Campo-Natureza</h2>
+                </div>
+                <div class="grid-gallery">
+                    <div class="img-box reveal"><img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&w=600&q=80" alt="Horta"></div>
+                    <div class="img-box reveal"><img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=600&q=80" alt="Trator"></div>
+                    <div class="img-box reveal"><img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80" alt="Paisagem"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>AgroForte</h3>
+                <p>Semeando tecnologia, colhendo sustentabilidade.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Contato</h4>
+                <p>contato@agroforte.com.br</p>
+                <p>+55 (11) 9999-9999</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AgroForte. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
